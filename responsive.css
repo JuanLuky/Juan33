@@ -1,0 +1,33 @@
+@media (max-width: 450px) {
+    .container img {
+       width: 150px;
+    }
+    .container h1 {
+        font-size: 1.5rem;
+        color: black;
+        margin-bottom: 1rem;
+    }
+    .container p {
+        color: rgb(109, 109, 109);
+        letter-spacing: 2px;
+    }
+    .redes-sociais {
+        position: relative;
+        z-index: 5;
+        width: 480px;
+        padding: 0 3rem;
+        text-align: center;
+        display: grid;
+        grid-template-areas: 
+            "insta "
+            "git"
+            "link "
+            "port"
+            "pix"
+        ;
+    }
+    .pix h2 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
