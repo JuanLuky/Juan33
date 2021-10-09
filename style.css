@@ -18,8 +18,6 @@ body {
 }
 .banner {
     padding: 10px;
-    height: 100vh;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +50,7 @@ body {
 /* Redes Socias */
 
 .redes-sociais {
+    margin: auto;
     margin-bottom: 10px;
     position: relative;
     width: 700px;
@@ -70,7 +69,7 @@ body {
 }
 
 .instagram {
-    margin: 10px  20px;
+    margin:10px 20px;
     padding: 20px;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     grid-area: insta;
@@ -97,17 +96,17 @@ body {
     margin: 10px 20px;
     border-radius: 5px;
 
-    animation: logo1 3s ease-in-out infinite;
+    animation: logo 6s ease-in-out infinite;
     transition: all 0.5s;
 }
 .Portfólio {
     padding: 20px;
     background: linear-gradient(180deg, rgba(15,0,36,1) 0%, rgba(128,0,255,1) 0%, rgba(57,9,121,1) 100%);
     grid-area: port;
-    margin: 10px  20px;
     border-radius: 5px;
+    margin: 10px  20px;
 
-    animation: logo1 3s ease-in-out infinite;
+    animation: logo 6s ease-in-out infinite;
     transition: all 0.5s;
 }
 .pix {
@@ -152,15 +151,6 @@ body {
 		transform:translatey(0)
 	}
 	50%{
-		transform:translatey(-10px)
-	}
-}
-
-@keyframes logo1{
-	0%,100%{
-		transform:rotatey(0)
-	}
-	50%{
-		transform:rotatey(20deg)
+		transform:translatey(-15px)
 	}
 }

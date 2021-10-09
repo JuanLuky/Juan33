@@ -1,10 +1,19 @@
 @media (max-width: 500px) {
+    .banner {
+        margin: auto;
+        width: 350px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
     .container img {
        width: 150px;
     }
     .container h1 {
         font-size: 1.5rem;
-        color: black;
+        color: #f9f9f9;
         margin-bottom: 1rem;
     }
     .container p {
@@ -12,10 +21,8 @@
         letter-spacing: 2px;
     }
     .redes-sociais {
-        position: relative;
-        z-index: 5;
-        width: 480px;
-        padding: 0 3rem;
+        padding: 10px;
+        justify-content: center;
         text-align: center;
         display: grid;
         grid-template-areas: 
@@ -26,8 +33,47 @@
             "pix"
         ;
     }
+
+    .instagram {
+        margin: 10px auto;
+        width: 360px;
+        padding: 20px;
+    }
+    .GitHub {
+        margin: 10px auto;
+        width: 360px;
+        padding: 20px;
+    }
+    .Linkedin {
+        margin: 10px auto;
+        width: 360px;
+        padding: 20px;
+    }
+    .Portfólio {
+        margin: 10px auto;
+        width: 360px;
+        padding: 20px;
+    }
+    .pix {
+        margin: 10px auto;
+        width: 360px;
+        padding: 20px;
+    }
+    .pix h4 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
     .pix h2 {
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 15px;
     }
 }
@@ -37,7 +83,7 @@
     }
     .container h1 {
         font-size: 1.2rem;
-        color: black;
+        color: #f9f9f9;
         margin-bottom: 1rem;
     }
     .container p {
@@ -47,8 +93,6 @@
     .redes-sociais {
         margin: auto;
         position: relative;
-        z-index: 5;
-        width: 460px;
         margin: 0 2rem;
         text-align: center;
         display: grid;
@@ -60,6 +104,38 @@
             "pix"
         ;
     }
+    .instagram {
+        margin: 10px auto;
+        width: 330px;
+        padding: 20px;
+    }
+    .GitHub {
+        margin: 10px auto;
+        width: 330px;
+        padding: 20px;
+    }
+    .Linkedin {
+        margin: 10px auto;
+        width: 330px;
+        padding: 20px;
+    }
+    .Portfólio {
+        margin: 10px auto;
+        width: 330px;
+        padding: 20px;
+    }
+    .pix {
+        margin: 10px auto;
+        width: 330px;
+        padding: 20px;
+    }
+    .pix h4 {
+        font-size: 18px;
+    }
+
+
+
+
     .pix h2 {
         font-size: 15px;
         margin-bottom: 15px;
