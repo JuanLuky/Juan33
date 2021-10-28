@@ -1,7 +1,6 @@
 @media (max-width: 500px) {
     .banner {
         margin: auto;
-        width: 350px !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -13,7 +12,7 @@
        width: 150px;
     }
     .container h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #f9f9f9;
         margin-bottom: 1rem;
     }
@@ -35,42 +34,10 @@
         ;
     }
 
-    .instagram {
-        margin: 10px auto;
-        width: 360px;
-        padding: 20px;
-    }
-    .GitHub {
-        margin: 10px auto;
-        width: 360px;
-        padding: 20px;
-    }
-    .Linkedin {
-        margin: 10px auto;
-        width: 360px;
-        padding: 20px;
-    }
-    .Portfólio {
-        margin: 10px auto;
-        width: 360px;
-        padding: 20px;
-    }
-    .pix {
-        margin: 10px auto;
-        width: 360px;
-        padding: 20px;
-    }
+
     .pix h4 {
         font-size: 20px;
     }
-
-
-
-
-
-
-
-
 
 
     .pix h2 {
