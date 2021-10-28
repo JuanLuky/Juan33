@@ -17,8 +17,8 @@ body {
     color: #f9f9f9;
 }
 .banner {
+    padding: 40px;
     overflow: hidden;
-    padding: 20px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 .container img {
     width: 150px;
     border-radius: 50%;
-    margin: 2rem auto;
+    margin-bottom: 2rem;
 }
 .container h1 {
     color: #f9f9f9;
@@ -54,7 +54,6 @@ body {
 
 .redes-sociais {
     margin: auto;
-    margin-bottom: 10px;
     position: relative;
     width: 550px;
     text-align: center;
@@ -71,9 +70,13 @@ body {
     margin-bottom: 10px;
 }
 
+.efect p {
+    font-size: 15px;
+}
+
 .instagram {
-    margin:10px 20px;
-    padding: 20px;
+    margin: 6px 20px;
+    padding: 17px;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     grid-area: insta;
     border-radius: 5px;
@@ -82,8 +85,8 @@ body {
     transition: all 0.5s;
 }
 .GitHub {
-    margin: 10px  20px;
-    padding: 20px;
+    margin: 6px  20px;
+    padding: 17px;
     background: linear-gradient(58deg, #7ec7c3 8%, #205e88 98%);
     grid-area: git;
     border-radius: 5px;
@@ -93,21 +96,21 @@ body {
 
 }
 .Linkedin {
-    padding: 20px;
+    padding: 17px;
     background: linear-gradient(90deg, #7996d8 0%, #0e1930 100%);
     grid-area: link;
-    margin: 10px 20px;
+    margin: 6px 20px;
     border-radius: 5px;
 
     animation: logo 6s ease-in-out infinite;
     transition: all 0.5s;
 }
 .Portfólio {
-    padding: 20px;
+    padding: 17px;
+    margin: 6px  20px;
     background: linear-gradient(180deg, rgba(15,0,36,1) 0%, rgba(128,0,255,1) 0%, rgba(57,9,121,1) 100%);
     grid-area: port;
     border-radius: 5px;
-    margin: 10px  20px;
 
     animation: logo 6s ease-in-out infinite;
     transition: all 0.5s;
@@ -116,7 +119,7 @@ body {
     padding: 20px;
     background: radial-gradient(circle, #ccffbd 0%, #7eca9c 100%);
     grid-area: pix;
-    margin: 20px 20px;
+    margin: 10px 20px 0 20px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -138,7 +141,6 @@ body {
     letter-spacing: 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    margin-bottom: 10px;
     text-transform: uppercase;
     background-color: #1c1427;
     padding: 8px 30px;
