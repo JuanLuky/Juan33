@@ -33,7 +33,31 @@
             "pix"
         ;
     }
-
+    .instagram {
+        width: 350px;
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .GitHub {
+        width: 350px;
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .Linkedin {
+        width: 350px;
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .Portfólio {
+        width: 350px;
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .pix {
+        margin: 10px auto;
+        width: 350px;
+        padding: 20px;
+    }
 
     .pix h4 {
         font-size: 20px;
@@ -41,10 +65,18 @@
 
 
     .pix h2 {
-        font-size: 17px;
-        margin-bottom: 15px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    .pix p {
+        font-size:13px;
     }
 }
+
+
+
+
 @media (max-width: 380px) {
     .container img {
        width: 150px;
