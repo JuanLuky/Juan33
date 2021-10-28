@@ -17,34 +17,37 @@ body {
     color: #f9f9f9;
 }
 .banner {
-    padding: 10px;
+    overflow: hidden;
+    padding: 20px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .banner .container {
+    margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
 }
 .container img {
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
 }
 .container h1 {
     color: #f9f9f9;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
 }
 .container p {
     color: rgb(144, 144, 144);
     letter-spacing: 2px;
+    margin-bottom: 2rem;
 }
 
 /* Redes Socias */
@@ -53,7 +56,7 @@ body {
     margin: auto;
     margin-bottom: 10px;
     position: relative;
-    width: 700px;
+    width: 550px;
     text-align: center;
     display: grid;
     grid-template-areas: 
@@ -64,7 +67,7 @@ body {
 }
 
 .fab,.fas {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
@@ -114,7 +117,7 @@ body {
     background: radial-gradient(circle, #ccffbd 0%, #7eca9c 100%);
     grid-area: pix;
     margin: 20px 20px;
-    height: 220px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,18 +127,17 @@ body {
 
 }
 .pix h2 {
-    margin-bottom: 15px;
+    font-size:20px;
+    margin-bottom:8px;
 }
 .pix p {
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
 
 .pix h4 {
     letter-spacing: 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
     background-color: #1c1427;
