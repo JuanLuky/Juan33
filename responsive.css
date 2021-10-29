@@ -9,12 +9,11 @@
     }
 
     .container img {
-       width: 150px;
+       width: 120px;
     }
     .container h1 {
         font-size: 1.2rem;
         color: #f9f9f9;
-        margin-bottom: 1rem;
     }
     .container p {
         color: rgb(109, 109, 109);
@@ -70,7 +69,8 @@
         font-weight: 600;
     }
     .pix p {
-        font-size:13px;
+        margin-bottom: 5px;
+        font-size:16px;
     }
 }
 
@@ -79,12 +79,11 @@
 
 @media (max-width: 380px) {
     .container img {
-       width: 150px;
+       width: 120px;
     }
     .container h1 {
         font-size: 1.2rem;
         color: #f9f9f9;
-        margin-bottom: 1rem;
     }
     .container p {
         color: rgb(109, 109, 109);
@@ -130,7 +129,7 @@
         padding: 20px;
     }
     .pix h4 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
 
@@ -138,7 +137,7 @@
 
     .pix h2 {
         font-size: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .efect {
         padding: 20px 5px;
