@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Poppins';
     
 }
 a {
@@ -17,7 +16,7 @@ body {
     color: #f9f9f9;
 }
 .banner {
-    padding: 40px;
+    padding: 30px 0 0 0;
     overflow: hidden;
     margin: auto;
     display: flex;
@@ -35,19 +34,18 @@ body {
     align-items: center;
 }
 .container img {
-    width: 150px;
+    width: 120px;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .container h1 {
     color: #f9f9f9;
     font-size: 1.2rem;
-    margin-bottom: .6rem;
 }
 .container p {
     color: rgb(144, 144, 144);
     letter-spacing: 2px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Redes Socias */
@@ -55,106 +53,96 @@ body {
 .redes-sociais {
     margin: auto;
     position: relative;
-    width: 550px;
+    width: 500px;
+    justify-content: center;
     text-align: center;
     display: grid;
     grid-template-areas: 
-        "insta git"
-        "link port"
-        "pix pix"
+        "insta"
+        "git"
+        "link"
+        "port"
+        "pix"
     ;
 }
 
 .fab,.fas {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
 }
-
+.efect {
+    width: 480px;
+    margin:0 5px 10px 5px;
+    background-color: #8B5CF6;
+}
 .efect p {
     font-size: 15px;
 }
-
-.instagram {
-    margin: 6px 20px;
-    padding: 17px;
+.instagram:hover{
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.instagram {
+    padding: 10px;
     grid-area: insta;
     border-radius: 5px;
-
-    animation: logo 6s ease-in-out infinite;
-    transition: all 0.5s;
+}
+.GitHub:hover{
+    background: linear-gradient(58deg, #7ec7c3 8%, #205e88 98%);
 }
 .GitHub {
-    margin: 6px  20px;
-    padding: 17px;
-    background: linear-gradient(58deg, #7ec7c3 8%, #205e88 98%);
+    padding: 10px;
     grid-area: git;
     border-radius: 5px;
-
-    animation: logo 6s ease-in-out infinite;
-    transition: all 0.5s;
-
+}
+.Linkedin:hover {
+    background: linear-gradient(90deg, #7996d8 0%, #0e1930 100%);
 }
 .Linkedin {
-    padding: 17px;
-    background: linear-gradient(90deg, #7996d8 0%, #0e1930 100%);
+    padding: 10px;
     grid-area: link;
-    margin: 6px 20px;
     border-radius: 5px;
-
-    animation: logo 6s ease-in-out infinite;
-    transition: all 0.5s;
+}
+.Portfólio:hover{
+    background: linear-gradient(180deg, rgba(15,0,36,1) 0%, rgba(128,0,255,1) 0%, rgba(57,9,121,1) 100%);
 }
 .Portfólio {
-    padding: 17px;
-    margin: 6px  20px;
-    background: linear-gradient(180deg, rgba(15,0,36,1) 0%, rgba(128,0,255,1) 0%, rgba(57,9,121,1) 100%);
+    padding: 10px;
     grid-area: port;
     border-radius: 5px;
-
-    animation: logo 6s ease-in-out infinite;
-    transition: all 0.5s;
+}
+.pix:hover {
+    background-color: #9870f5;
 }
 .pix {
-    padding: 20px;
-    background: radial-gradient(circle, #ccffbd 0%, #7eca9c 100%);
+    padding: 30px;
     grid-area: pix;
-    margin: 10px 20px 0 20px;
-    height: 150px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    color: #1c1427;
-
+    color: #ffffff;
 }
 .pix h2 {
     font-size:20px;
-    margin-bottom:8px;
+    margin-bottom:3px;
 }
 .pix p {
-    margin-bottom: 10px;
+    margin-top: -5px;
+    margin-bottom: 3px;
 }
+
 
 .pix h4 {
     letter-spacing: 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
+    font-size: 18px;
     background-color: #1c1427;
+    border-radius:25px;
     padding: 8px 30px;
-    color: #7eca9c;
+    color: #8B5CF6;
+    cursor: grabbing;
+    transition: linear 0.3s;
 }
-
-
-
-
-@keyframes logo{
-	0%,100%{
-		transform:translatey(0)
-	}
-	50%{
-		transform:translatey(-15px)
-	}
+.pix h4:hover {
+    padding: 8px 40px;
 }
