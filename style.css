@@ -41,6 +41,7 @@ body {
 .container h1 {
     color: #f9f9f9;
     font-size: 1.2rem;
+    font-weight: 600;
 }
 .container p {
     color: rgb(144, 144, 144);
